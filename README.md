@@ -1,1 +1,1 @@
-# python_gachon
+### MOOC 강좌의 학습 내용 및 실습 코드 정리.
