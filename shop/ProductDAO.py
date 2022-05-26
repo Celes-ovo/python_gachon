@@ -10,8 +10,8 @@
 
 products = {}
 
-import Product
-# from Product import *
+#import Product
+from Product import *
 
 products['101'] = Product('101', 'Galaxy', '1,000,000')
 products['102'] = Product('102', 'Iphone 12', '1,250,000')
@@ -24,3 +24,22 @@ def getAll():
 # id 값을 받아서 해당 id에 해당하는 객체를 찾아 return해 주는 기능을 만들어야 함.
 def get(id):
     return products[id]
+
+
+
+"""
+import Product
+
+products = {}
+
+# id, name, price
+products['101'] = Product('101', 'Galaxy', '1,000,000')
+products['102'] = Product('102', 'Iphone 12', '1,250,000')
+products['103'] = Product('103', 'LG V50', '750,000')
+
+def getAll():
+    return products.values()
+
+def getid():
+    return products[id]
+"""
