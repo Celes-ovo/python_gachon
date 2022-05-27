@@ -1,6 +1,7 @@
 # main
 
-import ProductDAO as dao
+#import ProductDAO as dao
+import ProductDAODB as dao
 from Product import *
 
 print('### Mint auction v1.0 ###')
@@ -20,6 +21,7 @@ print('--------------------------')
 import Cart as cart
 
 sel = input('Type your code : ')
-cart.add(sel)
+#cart.add(sel)
+cart.add(dao.get(sel))
 
-print(f'{dao.get(sel)} has been added.')
+#print(f'{dao.get(sel)} has been added.')

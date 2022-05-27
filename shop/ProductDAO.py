@@ -13,9 +13,9 @@ products = {}
 #import Product
 from Product import *
 
-products['101'] = Product('101', 'Galaxy', '1,000,000')
-products['102'] = Product('102', 'Iphone 12', '1,250,000')
-products['103'] = Product('103', 'LG V50', '750,000')
+products['101'] = Product('101', 'Galaxy', 1000000)
+products['102'] = Product('102', 'Iphone 12', 1250000)
+products['103'] = Product('103', 'LG V50', 750000)
 
 
 def getAll():
